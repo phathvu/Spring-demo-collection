@@ -6,4 +6,13 @@
     <bean id="helloWorld" class="pvu.spring.core.helloworld.HelloWorld">
         <property name="name" value="Phat"/>
     </bean>
+
+
+    <bean id="account1" class="pvu.spring.core.helloworld.Account"/>
+
+    <bean id="account2" class="pvu.spring.core.helloworld.Account">
+        <property name="id" value="1"/>
+        <property name="ownerName" value="phatvu"/>
+        <property name="balance" value="2000"/>
+    </bean>
 </beans>

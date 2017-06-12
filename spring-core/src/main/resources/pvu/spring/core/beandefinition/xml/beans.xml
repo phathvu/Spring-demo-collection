@@ -11,7 +11,7 @@
 
     <bean id="account2" class="pvu.spring.core.beandefinition.Account">
         <property name="id" value="2"/>
-        <property name="ownerName" value="Phat"/>
+        <property name="ownerName" value="Roger"/>
         <property name="balance" value="26.9"/>
     </bean>
 </beans>
